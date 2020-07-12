@@ -1,0 +1,88 @@
+#hh{
+background:#67bfc7;
+}
+.s{
+	color:white;
+}
+img{
+	color: white;
+	border-radius: 20px;
+}
+h1{
+	color: white;
+}
+#unic{
+	border-radius: 0px;
+}
+ul li{
+	list-style: none;
+}
+.ll{
+	text-align: center; 
+	margin-top: -55%;
+	margin-left: 60%;
+}
+.ññ{
+	margin-top: 3%;
+	width: 100%;
+	height:185px;
+	background: #67c7b5; 
+
+}
+h4,p{
+
+color: white;
+
+}
+a{
+	text-decoration: none;
+	text-shadow: 10px 5px 12px azure;
+}
+.bt1{
+	width: 70px;
+	height: 50px;
+	border-radius: 5px 4px ;
+	background: #67bfc7;
+	color: #67bfc7;
+	
+
+}
+.nube{
+  
+    width: 100%;
+    height: 100px;
+    animation-name: nub;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes nub{
+from{margin-left: -300px;}
+to{margin-left: 700px;}
+}
+#textarea-yui_3_17_2_1_1588871266605_133548-field{
+	font-size: 3em;
+}
+iframe{
+	width: 100%;
+}
+.qq{
+	text-align: justify;
+}
+.sole{
+	
+    width: 20%;
+    height:80px;
+ 
+    animation-name: sun;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sun{
+from{transform: rotate(0deg);}
+to{transform: rotate(360deg);}
+}
